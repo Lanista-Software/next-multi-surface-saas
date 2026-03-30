@@ -1,170 +1,17 @@
 {
-  "content": {
-    "default_locale": "en",
-    "domains": [
-      {
-        "description": "Global site chrome, SEO defaults, and reusable platform settings.",
-        "id": "system",
-        "models": [
-          "site-settings",
-          "navigation",
-          "footer",
-          "seo-defaults"
-        ]
-      },
-      {
-        "description": "Marketing surfaces such as hero sections, features, testimonials, and FAQs.",
-        "id": "marketing",
-        "models": [
-          "hero",
-          "feature",
-          "pricing-tier"
-        ]
-      },
-      {
-        "description": "Application shell content, dashboard strings, settings copy, and billing surfaces.",
-        "id": "app",
-        "models": [
-          "dashboard-overview",
-          "dashboard-stat",
-          "work-queue-item",
-          "settings-group",
-          "ui-copy"
-        ]
-      },
-      {
-        "description": "Product surface content such as integrations and changelog entries.",
-        "id": "product",
-        "models": [
-          "integration",
-          "changelog-entry"
-        ]
-      },
-      {
-        "description": "Top-level documentation pages and landing docs content.",
-        "id": "docs",
-        "models": [
-          "docs-page"
-        ]
-      },
-      {
-        "description": "Guides and how-to content for onboarding and rollout workflows.",
-        "id": "guides",
-        "models": [
-          "guide-page"
-        ]
-      },
-      {
-        "description": "Reference documentation and architecture-level content contracts.",
-        "id": "reference",
-        "models": [
-          "reference-page"
-        ]
-      },
-      {
-        "description": "Package-specific documentation for shared tooling and SDK surfaces.",
-        "id": "packages",
-        "models": [
-          "package-page"
-        ]
-      }
-    ],
-    "i18n_strategy": "file-per-locale",
-    "import_pattern": "import { query, getCollection, getDocument, getSingleton } from '#contentrain'",
-    "supported_locales": [
-      "en"
-    ]
-  },
-  "conventions": {
-    "allowed_richtext_tags": [
-      "p",
-      "strong",
-      "em",
-      "a",
-      "ul",
-      "ol",
-      "li",
-      "h2",
-      "h3",
-      "h4",
-      "h5",
-      "h6",
-      "blockquote",
-      "code",
-      "pre",
-      "img",
-      "br",
-      "hr",
-      "table",
-      "thead",
-      "tbody",
-      "tr",
-      "th",
-      "td",
-      "del",
-      "ins",
-      "sup",
-      "sub",
-      "abbr",
-      "mark",
-      "details",
-      "summary"
-    ],
-    "brand_terms": {
-      "company_name": "Contentrain",
-      "product_name": "Contentrain Next Multi-Surface SaaS"
-    },
-    "forbidden_terms": [
-      "click here",
-      "lorem ipsum",
-      "TODO",
-      "TBD"
-    ],
-    "max_description_length": 158,
-    "max_title_length": 76,
-    "target_reading_level": "grade-8",
-    "tone": "Professional, clear, and operationally mature."
-  },
   "lastOperation": {
-    "entries": [],
+    "entries": [
+      "a1b2c3d4e5f7"
+    ],
     "locale": "en",
-    "model": "",
-    "source": "mcp-local",
-    "timestamp": "2026-03-26T00:00:00.000Z",
-    "tool": "contentrain_init"
-  },
-  "normalize": {
-    "ignore_patterns": [
-      ".next/",
-      "node_modules/",
-      "out/",
-      ".contentrain/",
-      "*.test.*",
-      "*.spec.*"
-    ],
-    "import_rewrite": "import { query } from '#contentrain'",
-    "scan_dirs": [
-      "app/",
-      "components/"
-    ],
-    "scan_extensions": [
-      ".tsx",
-      ".ts",
-      ".jsx"
-    ]
-  },
-  "project": {
-    "content_consumption": "build-time",
-    "description": "Next.js starter that keeps marketing, app shell, docs, and changelog surfaces on one Contentrain content architecture.",
-    "name": "contentrain-starter-next-multi-surface-saas",
-    "package_manager": "pnpm",
-    "src_dir": ".",
-    "stack": "next",
-    "stack_version": "15.x"
+    "model": "feature",
+    "source": "mcp-studio",
+    "timestamp": "2026-03-30T11:52:23.843Z",
+    "tool": "save_content"
   },
   "stats": {
     "entries": 29,
-    "lastSync": "2026-03-26T00:00:00.000Z",
+    "lastSync": "2026-03-30T11:52:23.843Z",
     "locales": [
       "en"
     ],

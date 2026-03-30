@@ -1,4 +1,9 @@
 {
+  "a1b2c3d4e5f7": {
+    "source": "agent",
+    "status": "published",
+    "updated_by": "bayhanbayramoglu@gmail.com"
+  },
   "feature-local": {
     "source": "import",
     "status": "draft",
