@@ -1,0 +1,30 @@
+{
+  "domain": "app",
+  "fields": {
+    "delta": {
+      "type": "string"
+    },
+    "label": {
+      "required": true,
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    },
+    "trend": {
+      "options": [
+        "up",
+        "down",
+        "steady"
+      ],
+      "type": "select"
+    },
+    "value": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "dashboard-stat",
+  "kind": "collection"
+}

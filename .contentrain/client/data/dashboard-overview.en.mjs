@@ -1,0 +1,9 @@
+export default {
+  "environment_badge": "Unified release channel",
+  "eyebrow": "App surface",
+  "primary_cta_href": "/docs",
+  "primary_cta_label": "Open docs parity",
+  "status_note": "Release naming, plan labels, and onboarding copy were synced from the same source model.",
+  "summary": "This route proves that dashboard copy, launch queue states, and docs labels can be managed inside one local content project.",
+  "title": "Operate the app shell with the same vocabulary the homepage and docs already use."
+}

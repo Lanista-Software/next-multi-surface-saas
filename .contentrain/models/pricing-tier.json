@@ -1,0 +1,30 @@
+{
+  "domain": "marketing",
+  "fields": {
+    "billing_hint": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "features": {
+      "items": "string",
+      "type": "array"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "price_label": {
+      "required": true,
+      "type": "string"
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    }
+  },
+  "i18n": true,
+  "id": "pricing-tier",
+  "kind": "collection"
+}

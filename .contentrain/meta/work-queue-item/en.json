@@ -1,0 +1,17 @@
+{
+  "queue-changelog": {
+    "source": "import",
+    "status": "draft",
+    "updated_by": "contentrain-starters"
+  },
+  "queue-docs": {
+    "source": "import",
+    "status": "draft",
+    "updated_by": "contentrain-starters"
+  },
+  "queue-homepage": {
+    "source": "import",
+    "status": "draft",
+    "updated_by": "contentrain-starters"
+  }
+}

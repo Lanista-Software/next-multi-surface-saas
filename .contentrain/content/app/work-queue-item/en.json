@@ -1,0 +1,29 @@
+{
+  "queue-changelog": {
+    "due_label": "This week",
+    "href": "/changelog/unified-surface-rollout",
+    "owner": "Support ops",
+    "priority": "medium",
+    "status": "active",
+    "summary": "Support playbook and changelog summary need the same migration terms.",
+    "title": "Finalize post-release support copy"
+  },
+  "queue-docs": {
+    "due_label": "Tomorrow",
+    "href": "/docs",
+    "owner": "Docs lead",
+    "priority": "medium",
+    "status": "queued",
+    "summary": "Update package docs to match the naming already visible in the app shell.",
+    "title": "Sync docs release note terminology"
+  },
+  "queue-homepage": {
+    "due_label": "Today",
+    "href": "/",
+    "owner": "Growth PM",
+    "priority": "high",
+    "status": "active",
+    "summary": "The feature headline is ready, but the compliance subtitle still needs legal review.",
+    "title": "Approve homepage enterprise language"
+  }
+}

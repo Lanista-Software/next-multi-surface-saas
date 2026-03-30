@@ -1,0 +1,38 @@
+{
+  "settings-docs": {
+    "items": [
+      {
+        "hint": "Enough to demonstrate content path and query use.",
+        "label": "Guide coverage",
+        "status": "published",
+        "value": "2 seeded guides"
+      },
+      {
+        "hint": "Product-facing terms stay aligned with the app shell.",
+        "label": "Reference parity",
+        "status": "healthy",
+        "value": "4 pages"
+      }
+    ],
+    "summary": "Reference surfaces stay connected to the same release workflow.",
+    "title": "Docs operations"
+  },
+  "settings-product-terms": {
+    "items": [
+      {
+        "hint": "Used identically in signup, settings, and docs.",
+        "label": "Workspace",
+        "status": "published",
+        "value": "Shared noun"
+      },
+      {
+        "hint": "Reused across changelog and admin onboarding.",
+        "label": "Provisioning",
+        "status": "healthy",
+        "value": "Release-safe"
+      }
+    ],
+    "summary": "Critical labels reused across app, docs, and marketing surfaces.",
+    "title": "Shared terminology"
+  }
+}

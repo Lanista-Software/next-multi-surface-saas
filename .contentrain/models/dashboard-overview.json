@@ -1,0 +1,31 @@
+{
+  "domain": "app",
+  "fields": {
+    "environment_badge": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "primary_cta_href": {
+      "type": "string"
+    },
+    "primary_cta_label": {
+      "type": "string"
+    },
+    "status_note": {
+      "type": "text"
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "dashboard-overview",
+  "kind": "singleton"
+}

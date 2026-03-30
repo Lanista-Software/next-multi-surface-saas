@@ -1,0 +1,38 @@
+{
+  "tier-core": {
+    "billing_hint": "per workspace / month",
+    "featured": false,
+    "features": [
+      "Typed UI copy",
+      "Local SDK generation",
+      "Shared docs vocabulary"
+    ],
+    "name": "Core",
+    "price_label": "$99",
+    "summary": "For teams replacing hardcoded dashboard strings."
+  },
+  "tier-enterprise": {
+    "billing_hint": "annual agreement",
+    "featured": false,
+    "features": [
+      "Tenant terminology",
+      "Content governance",
+      "Ops and audit surfaces"
+    ],
+    "name": "Enterprise",
+    "price_label": "Custom",
+    "summary": "For white-label, multi-locale, policy-heavy products."
+  },
+  "tier-growth": {
+    "billing_hint": "per workspace / month",
+    "featured": true,
+    "features": [
+      "App and docs parity",
+      "Shared changelog contracts",
+      "Structured review workflow"
+    ],
+    "name": "Growth",
+    "price_label": "$249",
+    "summary": "For teams running marketing, app, and docs from the same release cadence."
+  }
+}

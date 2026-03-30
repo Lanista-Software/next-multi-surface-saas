@@ -1,0 +1,22 @@
+{
+  "domain": "marketing",
+  "fields": {
+    "emphasis": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "icon"
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "feature",
+  "kind": "collection"
+}

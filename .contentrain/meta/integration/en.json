@@ -1,0 +1,12 @@
+{
+  "integration-sdk": {
+    "source": "import",
+    "status": "draft",
+    "updated_by": "contentrain-starters"
+  },
+  "integration-studio": {
+    "source": "import",
+    "status": "draft",
+    "updated_by": "contentrain-starters"
+  }
+}

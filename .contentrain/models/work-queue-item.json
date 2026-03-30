@@ -1,0 +1,42 @@
+{
+  "domain": "app",
+  "fields": {
+    "due_label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "priority": {
+      "options": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "type": "select"
+    },
+    "status": {
+      "options": [
+        "queued",
+        "active",
+        "blocked",
+        "done"
+      ],
+      "type": "select"
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "work-queue-item",
+  "kind": "collection"
+}

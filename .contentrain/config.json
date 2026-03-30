@@ -1,0 +1,21 @@
+{
+  "domains": [
+    "system",
+    "marketing",
+    "app",
+    "product",
+    "docs",
+    "guides",
+    "reference",
+    "packages"
+  ],
+  "locales": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "stack": "next",
+  "version": 1,
+  "workflow": "auto-merge"
+}

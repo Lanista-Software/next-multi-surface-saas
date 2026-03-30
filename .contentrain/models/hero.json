@@ -1,0 +1,33 @@
+{
+  "domain": "marketing",
+  "fields": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "hero_media": {
+      "type": "image"
+    },
+    "primary_cta_href": {
+      "type": "string"
+    },
+    "primary_cta_label": {
+      "type": "string"
+    },
+    "secondary_cta_href": {
+      "type": "string"
+    },
+    "secondary_cta_label": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "hero",
+  "kind": "singleton"
+}

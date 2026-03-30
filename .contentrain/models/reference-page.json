@@ -1,0 +1,28 @@
+{
+  "content_path": "docs/reference",
+  "domain": "reference",
+  "fields": {
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "sidebar_label": {
+      "type": "string"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": false,
+  "id": "reference-page",
+  "kind": "document",
+  "locale_strategy": "none"
+}

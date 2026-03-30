@@ -1,0 +1,6 @@
+export default {
+  "canonical_base": "https://example.com",
+  "meta_description": "Next.js starter proving Contentrain can unify marketing, app, docs, and changelog content without hardcoded surface drift.",
+  "meta_title": "Surface Fabric",
+  "og_image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&fm=jpg&q=80&w=1600"
+}

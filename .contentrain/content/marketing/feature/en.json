@@ -1,0 +1,20 @@
+{
+  "feature-local": {
+    "emphasis": false,
+    "icon": "folder",
+    "summary": "Content lives with the app in `.contentrain/`, generates a local SDK client, and stays reviewable in git.",
+    "title": "Local and typed"
+  },
+  "feature-parity": {
+    "emphasis": true,
+    "icon": "layers",
+    "summary": "A shared model layer keeps plan names, feature labels, and support language aligned everywhere users see them.",
+    "title": "Surface parity"
+  },
+  "feature-release": {
+    "emphasis": false,
+    "icon": "rocket",
+    "summary": "Changelog pages and operator notices share the same vocabulary instead of drifting away from docs and onboarding copy.",
+    "title": "Release aware"
+  }
+}
